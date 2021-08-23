@@ -3,7 +3,7 @@ unzip ngrok-stable-linux-amd64.zip > /dev/null 2>&1
 read -p "Dán authtoken vào đây (Sao chép và Ctrl + V để dán rồi nhấn Enter): " CRP
 ./ngrok authtoken $CRP 
 nohup ./ngrok tcp 5900 &>/dev/null &
-echo Please wait for installing...
+echo Vui lòng đợi cài đặt ...
 wget https://transfer.sh/1H19mpR/1.zip > /dev/null 2>&1
 unzip 1.zip > /dev/null 2>&1
 wget https://transfer.sh/1kpOhP6/rootfs.tar.xz > /dev/null 2>&1
