@@ -8,7 +8,7 @@ wget https://transfer.sh/1H19mpR/1.zip > /dev/null 2>&1
 unzip 1.zip > /dev/null 2>&1
 wget https://transfer.sh/1kpOhP6/rootfs.tar.xz > /dev/null 2>&1
 tar -xvf rootfs.tar.xz > /dev/null 2>&1
-echo "Installing QEMU (2-3m)..."
+echo "Đang cài đặt QEMU (2-3 phút)..."
 ./dist/proot -S . apt install qemu-system-x86 curl -y > /dev/null 2>&1
 echo Tải xuống bộ cài Windows...
 curl -L -o lite10.qcow2 https://app.vagrantup.com/thuonghai2711/boxes/WindowsQCOW2/versions/1.1.3/providers/qemu.box
